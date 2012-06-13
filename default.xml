@@ -5,8 +5,10 @@
            fetch="https://android.googlesource.com/" />
   <remote name="b2g"
           fetch="git://github.com/mozilla-b2g/" />
+  <remote  name="linaro"
+           fetch="git://android.git.linaro.org/" />
   <default revision="refs/tags/android-4.0.4_r1.2"
-           remote="aosp"
+           remote="linaro"
            sync-j="4" />
 
   <!-- Gonk specific things and forks -->
