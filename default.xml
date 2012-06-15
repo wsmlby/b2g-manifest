@@ -88,7 +88,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Galaxy Nexus specific things -->
-  <project path="device/samsung/maguro" name="device/samsung/maguro" />
+  <project path="device/samsung/maguro" name="android-device-maguro" remote="b2g" revision="master" />
   <project path="device/samsung/tuna" name="android-device-tuna" remote="b2g" revision="master" />
   <project path="device/ti/panda" name="device/ti/panda" />
   <project path="hardware/invensense" name="platform/hardware/invensense" />
