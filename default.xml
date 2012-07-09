@@ -89,7 +89,7 @@
   <project path="system/vold" name="platform/system/vold" />
 
   <!-- Pandaboard specific things -->
-  <project path="device/ti/panda" name="device/ti/panda" />
+  <project path="device/ti/panda" name="android-device-panda" remote="b2g" revision="master" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
   <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
   <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
