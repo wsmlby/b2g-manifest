@@ -7,7 +7,7 @@
           fetch="git://github.com/mozilla-b2g/" />
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
-  <default revision="refs/tags/android-4.0.4_r1.2"
+  <default revision="master"
            remote="linaro"
            sync-j="4" />
 
@@ -88,12 +88,10 @@
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
 
-  <!-- Galaxy Nexus specific things -->
-  <project path="device/samsung/maguro" name="android-device-maguro" remote="b2g" revision="master" />
-  <project path="device/samsung/tuna" name="android-device-tuna" remote="b2g" revision="master" />
+  <!-- Pandaboard specific things -->
   <project path="device/ti/panda" name="device/ti/panda" />
-  <project path="hardware/invensense" name="platform/hardware/invensense" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
 
 </manifest>
