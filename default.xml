@@ -7,7 +7,7 @@
           fetch="git://github.com/mozilla-b2g/" />
   <remote  name="linaro"
            fetch="git://android.git.linaro.org/" />
-  <default revision="master"
+  <default revision="refs/tags/android-4.0.4_r2.1"
            remote="linaro"
            sync-j="4" />
 
@@ -71,7 +71,7 @@
   <project path="external/webp" name="platform/external/webp" />
   <project path="external/webrtc" name="platform/external/webrtc" />
   <project path="external/wpa_supplicant" name="platform/external/wpa_supplicant" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" revision="6dd24fc3792d71edccef9b09140f9a44b063a553" />
   <project path="external/zlib" name="platform/external/zlib" />
   <project path="external/yaffs2" name="platform/external/yaffs2" />
   <project path="frameworks/base" name="platform/frameworks/base" />
@@ -93,7 +93,7 @@
   <!-- Pandaboard specific things -->
   <project path="device/ti/panda" name="android-device-panda" remote="b2g" revision="master" />
   <project path="hardware/ti/omap4xxx" name="platform/hardware/ti/omap4xxx" />
-  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" />
-  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" />
+  <project path="hardware/ti/wlan" name="platform/hardware/ti/wlan" revision="60dfeb6e4448bfed707946ebca6612980f525e69" />
+  <project path="hardware/ti/wpan" name="platform/hardware/ti/wpan" revision="3ece7d9e08052989401e008bc397dbcd2557cfd0" />
 
 </manifest>
