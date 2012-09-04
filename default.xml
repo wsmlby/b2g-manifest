@@ -93,14 +93,18 @@
   <project path="system/media" name="platform/system/media" />
   <project path="system/netd" name="platform/system/netd" />
   <project path="system/vold" name="platform/system/vold" />
-
-  <!-- Emulator specific things -->
-  <project path="development" name="platform/development" revision="435a7da6d02083ba6583e1654db351991cf79578" />
-  <project path="device/generic/goldfish" name="device/generic/goldfish" />
-  <project path="prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/i686-linux-glibc2.7-4.6" revision="master" />
-  <project path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" name="platform/prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.7-4.6" revision="master" />
-  <project path="prebuilts/tools" name="platform/prebuilts/tools" revision="master" />
-  <project path="prebuilts/qemu-kernel" name="platform/prebuilts/qemu-kernel" revision="master" />
-  <project path="sdk" name="platform/sdk" revision="0d8f973905a4925e00eb9e32887c192b2148b29f" />
+  <!-- p6810 specific things -->
+<project path="device/samsung/p6810"
+    name="ohanar/android_device_samsung_p6810" 
+    revision="ics"
+    remote="github" />
+<project path="device/samsung/smdk4210-tab"
+    name="ohanar/android_device_samsung_smdk4210-tab" 
+    revision="ics"
+    remote="github" />
+<project path="kernel/samsung/smdk4210-tab"
+    name="ohanar/android_kernel_samsung_smdk4210-tab"
+    revision="ics"
+    remote="github" />
 
 </manifest>
